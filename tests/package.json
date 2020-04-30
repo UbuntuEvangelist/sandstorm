@@ -10,7 +10,9 @@
     "url": "https://github.com/sandstorm-io/sandstorm.git"
   },
   "scripts": {
-    "test": "./run-tests.sh"
+    "test": "./run-tests.sh",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "chai": "^2.3.0",
@@ -21,6 +23,8 @@
     "underscore": "^1.8.3",
     "firefox-profile": "^0.3.11",
     "jszip": "^2.5.0",
-    "es6-promise": "^3.0.2"
-  }
+    "es6-promise": "^3.0.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
