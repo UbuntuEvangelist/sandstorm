@@ -17,7 +17,7 @@
     "mailcomposer": "^0.2.12",
     "mailparser": "0.5.1",
     "simplesmtp": "0.3.35",
-    "spacejam": "1.2.2",
+    "spacejam": "1.6.0",
     "underscore": "^1.8.3",
     "firefox-profile": "^0.3.11",
     "jszip": "^2.5.0",
