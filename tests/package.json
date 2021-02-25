@@ -19,7 +19,7 @@
     "simplesmtp": "0.3.35",
     "spacejam": "1.2.2",
     "underscore": "^1.8.3",
-    "firefox-profile": "^0.3.11",
+    "firefox-profile": "^4.1.0",
     "jszip": "^2.5.0",
     "es6-promise": "^3.0.2"
   }
